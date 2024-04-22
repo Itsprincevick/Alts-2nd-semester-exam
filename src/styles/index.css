@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  font-size: 0.9rem;
+  font-family: "Inter", sans-serif;
+  color: whitesmoke;
+  background-color: #aaaaaa;
+  letter-spacing: 0.02rem;
+  min-height: 100vh;
+}
+main {
+  margin-top: 70px;
+  min-height: 100vh;
+}
+
+
+h1 {
+  font-size: 2.1em;
+}
+
+p {
+  padding: 5px 0;
+}
+
+
+
+section {
+  padding: 20px 0;
+}
+
+.repo-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 30px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.repo button {
+  text-align: center;
+  transform: translateX(150%);
+  margin-left: 20px;
+}
+
+.view-more {
+  text-align: center;
+  font-size: 1rem;
+  color: #1d3167;
+  cursor: pointer;
+  margin: 50px 0 60px;
+}
+
+.view-more:hover {
+  text-decoration: underline;
+}
+
+.repo-card,
+.repodetail-card {
+  border: none;
+  padding: 13px;
+  border-radius: 8px;
+  background-color: #535464;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+a {
+  text-decoration: none;
+  color: #1B1A55;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.repo-name {
+  color: #011f3e;
+  font-size: 2rem;
+  word-break: break-word;
+}
+
+#repodetail {
+  /* width: 60%; */
+  max-width: 600px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+#repodetail p {
+  padding: 15px 0;
+  word-break: break-all;
+}
+
+.repo-mini-details {
+  gap: 10px 50px;
+  margin: 0 0 15px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+.repo-mini-details p {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+.navLink {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+.navLink p {
+  font-size: 1.2rem;
+}
+
+.icons {
+  color: #e3dac9;
+}
+
+
+
+@media screen and (max-width: 703px) {
+  .repo-container {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+  .view-more {
+    margin: 0 60px;
+  }
+  .navLink p {
+    font-size: 0.8rem;
+  }
+  h1 {
+    font-size: 0.8rem;
+  }
+
+  .github-icon {
+    font-size: rem;
+  }
+  .searchBar {
+    flex-direction: column;
+    margin: 10px 30px;
+  }
+  .searchBar input {
+    width: inherit;
+  }
+ .filter {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+ }
+  .github-icon {
+    font-size: 1.5rem;
+  }
+  .git {
+    gap: 10px;
+  }
+  .pagination {
+    display: block;
+    margin: 20px auto;
+  }
+
+  .main-repo {
+    margin-top: 0;
+    min-height: 100vh;
+    height: auto;
+    padding-bottom: 20px;
+  }
+}
+
+.searchBar {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.searchBar input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #1d3167;
+  background-color: #535464;
+  color: whitesmoke;
+  font-size: 1rem;
+  outline: none;
+}
+.searchBar select {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid #1d3167;
+  background-color: #535464;
+  color: whitesmoke;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 40px 0 0;
+}
+
+
