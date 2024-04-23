@@ -10,7 +10,7 @@ Here are some screenshots of my projects:
 
 ![Screenshot 1](/assets/images/about-ss.png)
 ![Screenshot 2](/assets/images/image.png)
-![Screenshot 3](/assets//images/oops.png)
+![Screenshot 3](/assets//images/oops-ss.png)
 
 ## Description
 
