@@ -8,9 +8,9 @@ This is my personal GitHub portfolio where I showcase my projects and skills.
 
 Here are some screenshots of my projects:
 
-![Screenshot 1](/assets/images/about-ss.png)
-![Screenshot 2](/assets/images/image.png)
-![Screenshot 3](/assets//images/oops-ss.png)
+![Screenshot 1](/src/assets/images/about-ss.png)
+![Screenshot 2](/src/assets/images/image.png)
+![Screenshot 3](/src/assets/images/opps-ss.png)
 
 ## Description
 
